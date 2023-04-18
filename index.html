@@ -1,0 +1,114 @@
+<html>
+    <head>
+        <title>
+          Legacy Icons.
+        </title>
+
+    <style>
+        .row{
+            width:720px;
+            margin: 10px auto 10px auto ;
+        }
+        .image-container {
+            display: table-cell;
+            vertical-align: middle;
+            padding:28;
+        }
+    </style>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/buzz/1.2.1/buzz.min.js"></script>
+
+    </head>
+
+    <body style="background-color:darkseagreen;">
+
+       <!--
+       
+    <h1>
+        Khang Sam Legacy
+    </h1>
+                              
+         <h3>Concept and meaning</h3>
+            <p>
+                1. Peace in life
+            </p>
+
+            <p>
+                2. Time to grow
+            </p>
+
+            <p>
+                3. Health/ Strength for the Body
+            </p>
+
+            <p>
+                4. Knowledge/ Wisdom in thought
+            </p>
+
+            <p>
+                5. Home/ house to stay and rest
+            </p>
+
+            <p>
+                6. World to explore
+            </p>
+
+            <p>
+                7. Money/ Wealth to invest
+            </p> 
+         
+            <p>
+                8. Natural/ Environment to live
+            </p>
+
+            <p>
+                9. Family to care for and love
+            </p>
+
+       -->
+
+       <div class="row">
+<div class="image-container"><img id="Peace" src="Peace.png" width="200" length="200"/></div>
+<div class="image-container"><img id="Time" src="Time.png" width="200" length="200"/></div>
+<div class="image-container"><img id="Health" src="Health.png" width="200" length="200"/></div>
+      </div>
+      
+      <div class="row">
+<div class="image-container"><img id="Knowledge" src="Knowledge.png" width="200" length="200"/></div>
+<div class="image-container"><img id="Home" src="Home.png" width="200" length="200"/></div>
+<div class="image-container"><img id="World" src="World.png" width="200" length="200"/></div>
+      </div>
+
+      <div class="row">
+<div class="image-container"><img id="Wealth" src="Wealth.png" width="200" length="200"/></div>
+<div class="image-container"><img id="Natural" src="Natural.png" width="200" length="200"/></div>
+<div class="image-container"><img id="Family" src="Family.png" width="200" length="200"/></div>
+      </div>
+
+
+
+<script>
+    var sound1 = new buzz.sound("PEACE.mp3");
+    var sound2 = new buzz.sound("TIME.mp3");
+    var sound3 = new buzz.sound("HEALTH.mp3");
+    var sound4 = new buzz.sound("KNOWLEDGE.mp3");
+    var sound5 = new buzz.sound("HOME.mp3");
+    var sound6 = new buzz.sound("WORLD.mp3");
+    var sound7 = new buzz.sound("MONEY.mp3");
+    var sound8 = new buzz.sound("NATURAL.mp3");
+    var sound9 = new buzz.sound("FAMILY.mp3");
+
+    window.onload = function() {
+        document.getElementById('Peace').addEventListener('click', function () {sound1.play();});
+        document.getElementById('Time').addEventListener('click', function () {sound2.play();});
+        document.getElementById('Health').addEventListener('click', function () {sound3.play();});
+        document.getElementById('Knowledge').addEventListener('click', function () {sound4.play();});
+        document.getElementById('Home').addEventListener('click', function () {sound5.play();});
+        document.getElementById('World').addEventListener('click', function () {sound6.play();});
+        document.getElementById('Wealth').addEventListener('click', function () {sound7.play();});
+        document.getElementById('Natural').addEventListener('click', function () {sound8.play();});
+        document.getElementById('Family').addEventListener('click', function () {sound9.play();});
+    };
+</script>
+
+    </body>
+</html>
